@@ -6,7 +6,7 @@ EXPOSE 5000
 
 COPY package*.json ./
 
-RUN npm install
+RUM npm install
 
 COPY . .
 
